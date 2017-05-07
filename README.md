@@ -1,7 +1,8 @@
 # RouteLineProject
 折线图，均线图(日K图)，股市行情折线图，带有手指滑动交互；适用于上证指数，欧元汇率，黄金汇率。
 
-###RouterLine
+
+###  RouterLine
 
 折线图，均线图(日K图)，股市行情折线图，带有手指滑动交互；适用于上证指数，欧元汇率，黄金汇率。
 
@@ -15,6 +16,20 @@
 
 · 因为数据量比较大，哪怕json解析，目前也是子线程解析。
 
+
+
+
+
+![折线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00027.png)
+
+
+
 ### 均线图(日K图)：
 
 ·这个均值可以后台计算，也可以前台计算。项目中采用的是后台计算，前台展示(如果我记得还清楚的话)。
+
+
+
+
+
+![均线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00028.png)
