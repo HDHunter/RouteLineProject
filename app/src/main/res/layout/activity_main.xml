@@ -22,4 +22,13 @@
         android:id="@+id/routeline"
         android:layout_width="match_parent"
         android:layout_height="250dp" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <com.hunty.widget.charts.CandleChart
+        android:id="@+id/candle"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
 </LinearLayout>

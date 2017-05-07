@@ -13,12 +13,12 @@ import android.view.MotionEvent;
 import android.view.View;
 
 
+import com.hunty.widget.R;
 import com.hunty.widget.util.ViewUtils;
 
 import java.text.DecimalFormat;
 import java.util.Calendar;
 
-import widget.hunty.com.routelineproject.R;
 
 /**
  * 烛光图
