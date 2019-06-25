@@ -29,18 +29,14 @@
 
 '''
 
-
-![折线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00027.png)
+![折线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00028.png)
 
 
 
 ### 均线图(日K图) CandleChartView：
 同时带有手指交互功能。
 
-
-
-![均线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00028.png)
-
+![均线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00027.png)
 
 
 --------
