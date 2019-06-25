@@ -16,7 +16,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-
 import com.hunty.widget.R;
 import com.hunty.widget.util.ViewUtils;
 
@@ -40,7 +39,7 @@ import java.text.NumberFormat;
  *
  * @author zhangJianQiu
  */
-public class RouteLine extends View {
+public class RouteLineView extends View {
 
     public enum TYPE {
         GOLD, SZHENG, EUROPE
@@ -142,17 +141,17 @@ public class RouteLine extends View {
         mCacheImg = null;
     }
 
-    public RouteLine(Context context, AttributeSet attrs, int defStyleAttr) {
+    public RouteLineView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);
     }
 
-    public RouteLine(Context context, AttributeSet attrs) {
+    public RouteLineView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
 
-    public RouteLine(Context context) {
+    public RouteLineView(Context context) {
         super(context);
         init(context);
     }
@@ -286,7 +285,7 @@ public class RouteLine extends View {
      * 记住
      */
     public void setMaxAndMin(String mx, String mn, String closePrice) {
-        if (TextUtils.isEmpty(mx)|| TextUtils.isEmpty(mn)){
+        if (TextUtils.isEmpty(mx) || TextUtils.isEmpty(mn)) {
             return;
         }
         float mmax = Float.parseFloat(mx);

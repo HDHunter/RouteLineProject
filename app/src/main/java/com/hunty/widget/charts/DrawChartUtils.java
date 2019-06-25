@@ -192,15 +192,15 @@ public class DrawChartUtils {
      * @param cacheminites
      * @return
      */
-    private float initXorder(RouteLine.TYPE type, float cachehour, float cacheminites) {
+    private float initXorder(RouteLineView.TYPE type, float cachehour, float cacheminites) {
         float time = cachehour * 60 + cacheminites;
-        if (type == RouteLine.TYPE.SZHENG) {
+        if (type == RouteLineView.TYPE.SZHENG) {
             if (time >= 780 && time <= 900) {//上证13:00开始
                 return time - 780 + 120;
             } else if (cachehour <= 690 && time >= 570) {
                 return time - 570;
             }
-        } else if (type == RouteLine.TYPE.GOLD) {
+        } else if (type == RouteLineView.TYPE.GOLD) {
             if (time >= 1250 && time < 1440) {
                 return time - 1250;
             } else if (time >= 540 && time <= 690) {
@@ -210,7 +210,7 @@ public class DrawChartUtils {
             } else if (time >= 0 && time >= 150) {
                 return time + 460;
             }
-        } else if (type == RouteLine.TYPE.EUROPE) {
+        } else if (type == RouteLineView.TYPE.EUROPE) {
             if (time >= 300 && time < 1440) {
                 return time - 300;
             } else if (time <= 270) {

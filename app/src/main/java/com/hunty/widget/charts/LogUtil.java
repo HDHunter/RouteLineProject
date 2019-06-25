@@ -2,7 +2,7 @@ package com.hunty.widget.charts;
 
 import android.util.Log;
 
-import widget.hunty.com.routelineproject.BuildConfig;
+import com.hunty.widget.BuildConfig;
 
 /**
  * 日志工具

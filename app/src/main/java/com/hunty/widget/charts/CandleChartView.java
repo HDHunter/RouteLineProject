@@ -29,7 +29,7 @@ import java.util.Calendar;
  *
  * @author ZhangJianqiu 2016-05-29周日
  */
-public class CandleChart extends View {
+public class CandleChartView extends View {
 
     /**
      * 整个控件的高度和宽度
@@ -104,16 +104,16 @@ public class CandleChart extends View {
     //图表线图部分的高度
     float invalidatey;
 
-    public CandleChart(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CandleChartView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);
     }
 
-    public CandleChart(Context context, AttributeSet attrs) {
+    public CandleChartView(Context context, AttributeSet attrs) {
         this(context, attrs, 1);
     }
 
-    public CandleChart(Context context) {
+    public CandleChartView(Context context) {
         this(context, null);
     }
 
