@@ -35,7 +35,7 @@ public class DayKHistoryBean extends BaseBean {
         this.resultMsg = resultMsg;
     }
 
-    public class DayKDatasBean {
+    public static class DayKDatasBean {
 
         private String code;//行情代码
         private String name;//证券简称

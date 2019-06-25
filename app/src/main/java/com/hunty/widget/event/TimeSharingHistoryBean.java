@@ -35,7 +35,7 @@ public class TimeSharingHistoryBean extends BaseBean {
         this.list = list;
     }
 
-    public class FenShihistoryDatesBean {
+    public static class FenShihistoryDatesBean {
 
         private String code;    //行情代码
         private String name;//  证券简称
