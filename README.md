@@ -39,10 +39,18 @@
 
 
 
-
-
 ![均线图](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/ScreenShot00028.png)
 
 
+
+--------
+
+支付宝打赏
+![支付宝打赏](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/zhifubao-shouqian.png)
+
+微信打赏
+![微信打赏](https://github.com/HDHunter/RouteLineProject/blob/master/imgs/weixin_shouqian.png)
+
 欢迎交流学习。
 http://blog.csdn.net/u011216417
+email me :zhangjianqiu007@126.com
